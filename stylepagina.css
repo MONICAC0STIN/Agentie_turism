@@ -1,0 +1,161 @@
+
+/* Header */
+
+header {
+    background-image: url(/logo_site.PNG);
+    background-size: cover;
+    height: 300px;
+}
+/* Body style */
+
+body {
+    margin: 2px;
+        font-family: sans-serif;
+        font-size: 1rem;
+        line-height: 1.5;
+        color:black;
+        background-color: #ccacd3;
+}
+/* General style */
+p{
+    text-align: justify;
+   
+}
+
+p:first-of-type{
+    color: blueviolet;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+.video {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    
+}
+
+.img{
+    width: 100%;
+    height: auto;
+}
+/* Button style */
+#myBtn {
+    background-color: blueviolet;
+    position: fixed;
+   bottom: 20px;
+    left: 1000px;
+    width: min-content;
+}
+
+.btn-send:hover{
+background-color: #c6b7d3;
+color:blanchedalmond;
+}
+
+.btn-sbmt:hover{
+    background-color: #c6b7d3;
+color:blanchedalmond;
+}
+
+.btn-rst:hover {
+    background-color:#c6b7d3;
+    color: white;
+}
+
+#fullname:focus{
+color: #c6b7d3;
+}
+
+#email:focus{
+    color: #c6b7d3;
+}
+
+#password:focus {
+    color: blueviolet;
+}
+
+#Terms:focus {
+    color: blueviolet;
+}
+
+label::after {
+    content: "*";
+    color:black;
+    font-weight: bold;
+}
+
+.checked:hover {
+    background-color: blueviolet;
+    color: #48107c;
+}
+/* Contact style */
+.contact-details {
+    border: solid 2px #48107c;
+    background-color: blueviolet;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 200px;  
+
+
+}
+
+.contact-details .btn-outline:hover {
+color: #7f3197;
+background-color:  #48107c;
+}
+
+a:link, a:visited {
+    color: #2a0435;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+/* Footer style */
+footer{
+    text-align: center;
+    text-shadow: #2a0435;
+}
+
+input:focus {
+    background-color: #dbade6;
+  }
+ /* Media query */
+
+.main-navbar {
+    list-style: none;
+    margin:0;
+    padding:0;
+    background-color: blueviolet;
+}
+
+.main-navbar>li {
+    border-bottom: solid 1px #3c1263;
+
+}
+.main-navbar>li>a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding: 15px 100px;
+    display: inline-block;
+    
+}
+
+@media screen and (min-width: 625px) {
+    .main-navbar>li { display: inline-block;
+    border:none;
+}
+}
+
+.fa{
+color:#8c82af;
+box-shadow: #2a0435;
+}
