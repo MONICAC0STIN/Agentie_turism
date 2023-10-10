@@ -1,53 +1,54 @@
 <!DOCTYPE html>
-<head>
-    <title>
+<html lang="ro">
+    <head>
+        <title>
         CONTACT
-    </title>
-    <meta  charset="UTF-8">
+        </title>
+        <meta  charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="vacante, destinatii, vis, calatorii">
         <meta name="descriptions" content="Aceasta pagina este cartea noastra de vizita prin intermediul careia va invitam sa fiti alaturi de noi si sa descoperiti destinatii de poveste.">
         <meta name="robots" content="index,follow">
-    <link rel="stylesheet" href="stylepagina.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-    <header class="header" position="">  
-        <h1>DESTINATII DE VIS</h1>  
-    </header>
-      <ul class="main-navbar" id="main-navbar">
-<li><a href="paginaprincipala.html" target="_blank">DESPRE NOI</a></li>
-<li><a href="destinatiidevis.html" target="_blank">Destinatii de vis</a></li>
-<li><a href="oferte curente.html" target="_blank">Oferte curente</a></li>
-<li><a href="contact.html" target="_blank">CONTACT</a></li>
-</ul>
-</br>
-    <h1>Cum iei legatura cu noi</h1>
-    <p> Daca doresti sa aflii mai multe lucruri despre siteul si ofertele noastre, ori poate ai nevoie de ajutor in alegerea celei mai bune variante de vacanta pentru tine, nu ezita sa ne contactezi!</p>
+        <link rel="stylesheet" href="stylepagina.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header class="header" position="">  
+            <h1>DESTINATII DE VIS</h1>  
+        </header>
+        <ul class="main-navbar" id="main-navbar">
+            <li><a href="paginaprincipala.html" target="_blank">DESPRE NOI</a></li>
+            <li><a href="destinatiidevis.html" target="_blank">Destinatii de vis</a></li>
+            <li><a href="oferte curente.html" target="_blank">Oferte curente</a></li>
+            <li><a href="contact.html" target="_blank">CONTACT</a></li>
+        </ul>
+        </br>
+        <h1>Cum iei legatura cu noi</h1>
+            <p> Daca doresti sa aflii mai multe lucruri despre siteul si ofertele noastre, ori poate ai nevoie de ajutor in alegerea celei mai bune variante de vacanta pentru tine, nu ezita sa ne contactezi!</p>
+        <div class="contact-container">
+            <div class="contact-details">
+                <a href="mailto:vacantadevis@yahoo.com" class="btn-outline" ><i style="font-size:24px" class="fa">&#xf0e0;</i>  Scrie un email</a><br>
+            </div>
+            <div class="contact-details">
+                <a href="tel:02361234567" class="btn-outline"><i style="font-size:24px" class="fa">&#xf095;</i> Contacteaza-ne</a>
+            </div>
+        </div> 
 
-    <div class="contact-container">
-        <div class="contact-details">
-            <a href="mailto:vacantadevis@yahoo.com" class="btn-outline" ><i style="font-size:24px" class="fa">&#xf0e0;</i>  Scrie un email</a><br>
-        </div>
-        <div class="contact-details">
-            <a href="tel:02361234567" class="btn-outline"><i style="font-size:24px" class="fa">&#xf095;</i> Contacteaza-ne</a>
-        </div>
-    </div> 
+        <h2 class="paragraph-title">Devino parte din grupul nostru</h2>
+            <label for="fullname">Nume Complet</label>
+            <input type="text" id="fullname" name="fullname" required minlength="3" maxlength="40" placeholder="Introduceti numele complet"/><br>
+            <label for="birthday">Data nasterii </label>
+            <input type="date" id="birthday" name="birthday" required><br>
+            <label for="password">Parola</label>
+            <input type="text" id="password" name="password" required minlength="6" placeholder="Introduceti Parola"><br>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" required placeholder="Introduceti email"/><br>
+            <input type="checkbox" id="Terms"  class= "ckecked" name="Terms"/>termeni si conditii<br>
+        <button type="submit" class="btn-send">TRIMITE</button>
+        <button type="reset" class="btn-rst">Reseteaza</button>
 
-    <h2 class="paragraph-title">Devino parte din grupul nostru</h2>
-    <label for="fullname">Nume Complet</label>
-    <input type="text" id="fullname" name="fullname" required minlength="3" maxlength="40" placeholder="Introduceti numele complet"/><br>
-    <label for="birthday">Data nasterii </label>
-    <input type="date" id="birthday" name="birthday" required><br>
-    <label for="password">Parola</label>
-    <input type="text" id="password" name="password" required minlength="6" placeholder="Introduceti Parola"><br>
-    <label for="email">email</label>
-    <input type="email" id="email" name="email" required placeholder="Introduceti email"/><br>
-    <input type="checkbox" id="Terms"  class= "ckecked" name="Terms"/>termeni si conditii<br>
-    <button type="submit" class="btn-send">TRIMITE</button>
-    <button type="reset" class="btn-rst">Reseteaza</button>
-</body>
-<footer>
-    &COPY; Copyright 2023. Toate drepturile rezervate.
-</footer>
+        <footer>
+            &COPY; Copyright 2023. Toate drepturile rezervate.
+        </footer>
+    </body>
 </html>
