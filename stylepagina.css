@@ -1,4 +1,5 @@
-
+/* EXTRa */
+html{scroll-behavior: auto;}
 /* Header */
 
 .header>h1 {
@@ -55,21 +56,22 @@ p:first-of-type{
    bottom: 20px;
     left: 1000px;
     width: min-content;
+    font-size: 12px;
 }
 
 .btn-send:hover{
 background-color: #c6b7d3;
-color:blanchedalmond;
+color:black;
 }
 
 .btn-sbmt:hover{
     background-color: #c6b7d3;
-color:blanchedalmond;
+color:black;
 }
 
 .btn-rst:hover {
-    background-color:#c6b7d3;
-    color: white;
+    background-color:#bfb7d3;
+    color:black;
 }
 
 #fullname:focus{
@@ -97,6 +99,10 @@ label::after {
 .checked:hover {
     background-color: blueviolet;
     color: #48107c;
+}
+.submit {
+    color:black;
+    width: 100px;
 }
 /* Contact style */
 .contact-details {
@@ -127,6 +133,7 @@ a:link, a:visited {
 footer{
     text-align: center;
     text-shadow: #2a0435;
+    color: black;
 }
 
 input:focus {
@@ -164,5 +171,9 @@ input:focus {
 .fa{
 color:#8c82af;
 box-shadow: #2a0435;
+}
+
+strong{
+    color:black;
 }
 
