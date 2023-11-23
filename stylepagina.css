@@ -7,7 +7,7 @@ html{scroll-behavior: auto;}
     font-size: 60px;
     text-shadow: #ded9e2;
 text-align: center;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family: 'Caveat', cursive;
 }
     
 
@@ -16,16 +16,24 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 body {
     margin: 2px;
-        font-family: sans-serif;
-        font-size: 1rem;
-        line-height: 1.5;
-        color:black;
-        background-color: #ccacd3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color:black;
+    background-color: #ccacd3;
 }
 /* General style */
+h1, h2, h3 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+}
 p{
     text-align: justify;
-   
+    color:blueviolet;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    
 }
 
 p:first-of-type{
@@ -33,7 +41,6 @@ p:first-of-type{
     font-style: italic;
     font-weight: bold;
 }
-
 .bolded {
     font-weight: bold;
 }
@@ -82,19 +89,7 @@ color: #c6b7d3;
     color: #c6b7d3;
 }
 
-#password:focus {
-    color: blueviolet;
-}
 
-#Terms:focus {
-    color: blueviolet;
-}
-
-label::after {
-    content: "*";
-    color:black;
-    font-weight: bold;
-}
 
 .checked:hover {
     background-color: blueviolet;
@@ -110,7 +105,8 @@ label::after {
     background-color: blueviolet;
     text-decoration: none;
     font-size: 16px;
-    margin-bottom: 10px;
+    margin: 10px;
+    gap: 15px;
     width: 200px;  
 
 
@@ -167,7 +163,7 @@ input:focus {
 }
 }
 
-
+/* Contact page */
 .fa{
 color:#8c82af;
 box-shadow: #2a0435;
@@ -175,5 +171,159 @@ box-shadow: #2a0435;
 
 strong{
     color:black;
+}
+
+.contact-container {
+width:100%;
+height:100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.contact-form{
+    background: #FCE8F6;
+    display: flex;
+    height:90vh;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 80%;
+    max-width:600px;
+    border-radius: 10px;
+}
+
+.contact-form h2{
+    color:#3c1263;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.contact-form input, .contact-form textarea{
+    border: 0;
+    margin:10px 0;
+    padding:20px;
+    outline: none;
+    background-color: #ded9e2;
+    font-size: 16px;
+}
+
+.contact-form button , .programare-form button {
+    padding: 15px;
+    background: #3c1263;;
+    color: #000;
+    border:0;
+    outline: none;
+    cursor: pointer;
+    width:150px;
+    margin:20px auto 0;
+    border-radius: 30px;
+}
+/* card */
+.container-slider {
+    width:85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0 90px;
+
+}
+.content-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content-selection .card {
+    flex:1;
+    margin: 10px;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2) ;
+}
+
+.content-selection .card img{
+    width:90%;
+    height:auto;
+}
+.content-selection .card h2 {
+margin: 15px 0px;
+font-size: 28px;
+color:#3c1263;
+font-family: 'Caveat', cursive;
+
+}
+@media screen and (max-width:625px){
+    .content-selection {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .container-slider {
+        width:50%;
+        padding:0 20px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+    
+/* Programare */
+
+.program-container {
+    font-family: "Raleway",sans-serif;
+    font-weight:300;
+    max-height: 600px;
+    background-color: #f8edeb;
+    margin: 80px;
+    display: grid;
+    grid-template-columns:40% 60%;
+
+
+}
+
+.container-time {
+    background-color: #490958;
+    outline:3px dashed #dbade6;
+    outline-offset: -20px;
+    text-align: center;
+    padding:20px;
+   
+}
+.container-time p{
+    text-align: center;
+}
+.heading, .heading-days {
+    color:#dbade6;
+    font-family: 'Caveat' cursive;
+    font-weight: 300;
+    font-style: bold;
+    text-align: center;
+   
+}
+.heading{
+    font-size:32px;
+}
+
+.container-form{
+    padding:20px 0;
+    margin:0 auto;
+    color:#000;
+    display: grid;
+   
+    
+}
+.programare-form{
+    display: grid;
+}
+.heading-p {
+    font-size:32px;
+}
+label::after {
+    content: "*";
+    color:black;
+    font-weight: bold;
+}
+
+.field{
+    display: flex;
+    margin:10px 0;
+    padding:10px; 
 }
 
